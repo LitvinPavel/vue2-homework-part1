@@ -3,9 +3,10 @@ import {
   classModule,
   propsModule,
   styleModule,
-  eventListenersModule,
-  h,
+  eventListenersModule
 } from "snabbdom";
+import "./assets/css/style.css";
+import App from "./app";
 
 const patch = init([
   classModule,
@@ -14,8 +15,12 @@ const patch = init([
   eventListenersModule,
 ]);
 
-const app = document.getElementById("app");
+let vnode = null;
 
-const vnode = h("h1", null, "Hello");
+function render(_vnode) {
+  vnode = patch(vnode, _vnode);
+}
+App.$render = render;
 
-patch(app, vnode);
+let app = document.querySelector("#app");
+vnode =  patch(app, App.view());
