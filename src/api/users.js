@@ -1,7 +1,12 @@
 import users from '../users.json';
 
+const getImageUrl = (name) => {
+  return new URL(`../assets/images/${name}`, import.meta.url).href
+}
+
 export default {
   getList: async () => {
-    return await users;
+    const _users = await users;
+    return _users.map(user => ({ ...user, imgUrl: getImageUrl(user.imgLink) }))
   }
 }

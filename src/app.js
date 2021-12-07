@@ -20,14 +20,14 @@ export default {
           this.data.map(({
             name,
             description,
-            imgLink
+            imgUrl
           }) => {
             return h(
               "section.list-item",
               [
                 h("img.list-item-img", {
                   props: {
-                    src: imgLink
+                    src: imgUrl
                   }
                 }),
 

@@ -3,30 +3,30 @@
     "id": 1,
     "name": "Guduozi",
     "description": "Com chocolate flavor is very strong, hard and soft.",
-    "imgLink": "/src/assets/images/avatar.png"
+    "imgLink": "avatar.png"
   },
   {
     "id": 2,
     "name": "Moeuver",
     "description": "We are not producers, we just want to find the ...",
-    "imgLink": "/src/assets/images/avatar.png"
+    "imgLink": "avatar.png"
   },
   {
     "id": 3,
     "name": "Airen",
     "description": "Our intention is to continue to do subtraction.",
-    "imgLink": "/src/assets/images/avatar.png"
+    "imgLink": "avatar.png"
   },
   {
     "id": 4,
     "name": "Chonter",
     "description": "Com chocolate flavor is very strong, hard and soft.",
-    "imgLink": "/src/assets/images/avatar.png"
+    "imgLink": "avatar.png"
   },
   {
     "id": 5,
     "name": "Heben",
     "description": "preservatives, so that the return of food origin.",
-    "imgLink": "/src/assets/images/avatar.png"
+    "imgLink": "avatar.png"
   }
 ]
