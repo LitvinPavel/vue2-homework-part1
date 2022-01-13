@@ -1,7 +1,8 @@
 import users from '../users.json';
 
 const getImageUrl = (name) => {
-  return new URL(`../assets/images/${name}`, import.meta.url).href
+  const href = new URL(`../assets/images`, import.meta.url).href
+  return `${href}/${name}.png`
 }
 
 export default {

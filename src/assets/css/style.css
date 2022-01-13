@@ -18,7 +18,15 @@ body {
   align-items:center
 }
 
+.btn-group{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+}
+
 .container {
+  margin: auto;
   box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, .15);
   padding: 0 1rem;
 }
